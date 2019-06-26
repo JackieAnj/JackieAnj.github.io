@@ -6,7 +6,6 @@ html {
 body {
     /* Margin bottom by footer height */
     margin-bottom: 60px;
-    background-color:gray;
 }
 
 .footer {
@@ -50,19 +49,7 @@ body {
 }
 
 /* Style each tab content individually */
-#Home {
-    background-color: Maroon;
-}
-
-#Resume {
-    background-color: Maroon;
-}
-
-#Timeline {
-    background-color: Maroon;
-}
-
-#Contact {
+#banner {
     background-color: Maroon;
 }
 

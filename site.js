@@ -56,3 +56,41 @@ function openNav() {
 function closeNav() {
     document.getElementById("myNav").style.height = "0%";
 }
+
+var tabcontent = document.getElementsByClassName("tablink");
+
+$(document).on('scroll', function() {
+    if($(this).scrollTop()>=$('#about-me').position().top){
+        tabcontent[0].style.backgroundColor = "black";
+        tabcontent[1].style.backgroundColor = "#333C42";
+        tabcontent[2].style.backgroundColor = "#333C42";
+        tabcontent[3].style.backgroundColor = "#333C42";
+    }
+})
+
+$(document).on('scroll', function() {
+    if ($(this).scrollTop()>=$('#resume').position().top){
+        tabcontent[0].style.backgroundColor = "#333C42";
+        tabcontent[1].style.backgroundColor = "black";
+        tabcontent[2].style.backgroundColor = "#333C42";
+        tabcontent[3].style.backgroundColor = "#333C42";
+    }
+})
+
+$(document).on('scroll', function() {
+    if ($(this).scrollTop()>=$('#cd-timeline').position().top){
+        tabcontent[0].style.backgroundColor = "#333C42";
+        tabcontent[1].style.backgroundColor = "#333C42";
+        tabcontent[2].style.backgroundColor = "black";
+        tabcontent[3].style.backgroundColor = "#333C42";
+    }
+})
+
+$(document).on('scroll', function() {
+    if ($(this).scrollTop()>=$('#projects').position().top){
+        tabcontent[0].style.backgroundColor = "#333C42";
+        tabcontent[1].style.backgroundColor = "#333C42";
+        tabcontent[2].style.backgroundColor = "#333C42";
+        tabcontent[3].style.backgroundColor = "black";
+    }
+})
