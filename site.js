@@ -3,12 +3,12 @@ function setBanner() {
     var date = new Date();
     var time = date.getHours();
     if (time < 12){
-        alert("good morning!");
+        //alert("good morning!");
     } else if (time < 18) {
-        alert("good afternoon!");
+        //alert("good afternoon!");
         document.getElementById("banner").style.background = "url(./Images/afternoon.jpg) no-repeat right top";
     } else {
-        alert("good evening!");
+        //alert("good evening!");
         document.getElementById("banner").style.background = "url(./Images/afternoon.jpg) no-repeat right top";
     }
 }
@@ -44,45 +44,45 @@ var tabcontent = document.getElementsByClassName("tablink");
 
 $(document).on('scroll', function() {
     if($(this).scrollTop()<$('#about-me').position().top){
-        tabcontent[0].style.backgroundColor = "#333C42";
-        tabcontent[1].style.backgroundColor = "#333C42";
-        tabcontent[2].style.backgroundColor = "#333C42";
-        tabcontent[3].style.backgroundColor = "#333C42";
+        tabcontent[0].style.backgroundColor = "";
+        tabcontent[1].style.backgroundColor = "";
+        tabcontent[2].style.backgroundColor = "";
+        tabcontent[3].style.backgroundColor = "";
     }
 })
 
 $(document).on('scroll', function() {
     if($(this).scrollTop()>=$('#about-me').position().top){
         tabcontent[0].style.backgroundColor = "black";
-        tabcontent[1].style.backgroundColor = "#333C42";
-        tabcontent[2].style.backgroundColor = "#333C42";
-        tabcontent[3].style.backgroundColor = "#333C42";
+        tabcontent[1].style.backgroundColor = "";
+        tabcontent[2].style.backgroundColor = "";
+        tabcontent[3].style.backgroundColor = "";
     }
 })
 
 $(document).on('scroll', function() {
     if ($(this).scrollTop()>=$('#resume').position().top){
-        tabcontent[0].style.backgroundColor = "#333C42";
+        tabcontent[0].style.backgroundColor = "";
         tabcontent[1].style.backgroundColor = "black";
-        tabcontent[2].style.backgroundColor = "#333C42";
-        tabcontent[3].style.backgroundColor = "#333C42";
+        tabcontent[2].style.backgroundColor = "";
+        tabcontent[3].style.backgroundColor = "";
     }
 })
 
 $(document).on('scroll', function() {
     if ($(this).scrollTop()>=$('#cd-timeline').position().top){
-        tabcontent[0].style.backgroundColor = "#333C42";
-        tabcontent[1].style.backgroundColor = "#333C42";
+        tabcontent[0].style.backgroundColor = "";
+        tabcontent[1].style.backgroundColor = "";
         tabcontent[2].style.backgroundColor = "black";
-        tabcontent[3].style.backgroundColor = "#333C42";
+        tabcontent[3].style.backgroundColor = "";
     }
 })
 
 $(document).on('scroll', function() {
     if ($(this).scrollTop()>=$('#projects').position().top){
-        tabcontent[0].style.backgroundColor = "#333C42";
-        tabcontent[1].style.backgroundColor = "#333C42";
-        tabcontent[2].style.backgroundColor = "#333C42";
+        tabcontent[0].style.backgroundColor = "";
+        tabcontent[1].style.backgroundColor = "";
+        tabcontent[2].style.backgroundColor = "";
         tabcontent[3].style.backgroundColor = "black";
     }
 })

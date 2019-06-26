@@ -31,6 +31,10 @@ body {
     width: 25%;
 }
 
+.tablink:hover {
+    background-color:gray;
+}
+
 /* Set default styles for tab content */
 .tabcontent {
     color: white;
