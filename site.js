@@ -1,3 +1,18 @@
+// get the current time to update banner
+function setBanner() {
+    var date = new Date();
+    var time = date.getHours();
+    if (time < 12){
+        alert("good morning!");
+    } else if (time < 18) {
+        alert("good afternoon!");
+        document.getElementById("banner").style.background = "url(./Images/afternoon.jpg) no-repeat right top";
+    } else {
+        alert("good evening!");
+        document.getElementById("banner").style.background = "url(./Images/afternoon.jpg) no-repeat right top";
+    }
+}
+
 // When the user scrolls the page, execute myFunction 
 window.onscroll = function () {
     var navbar = document.getElementById("menubar");
@@ -14,13 +29,13 @@ function setSticky(navbar) {
         navbar.classList.remove("sticky");
     }
 }
-/* Open */
+// Open contacts
 function openNav() {
     document.getElementById("myNav").style.height = "100%";
     console.log("called");
 }
 
-/* Close */
+// Close contacts
 function closeNav() {
     document.getElementById("myNav").style.height = "0%";
 }
