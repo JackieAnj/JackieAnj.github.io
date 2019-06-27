@@ -6,6 +6,8 @@ html {
 body {
     /* Margin bottom by footer height */
     margin-bottom: 60px;
+    background-color: grey;
+    font-family: monospace;
 }
 
 #banner {
@@ -17,10 +19,20 @@ body {
 }
 
 #greeting {
-    padding-top:1em;
     font-size: 5em;
+    margin: 1em auto;
+    width: 95%;
     transition: 0.2s;
+    background-color:white;
+    color:black;
+    mix-blend-mode: screen;
+    font-family: sans-serif;
 }
+
+#greeting-message {
+    font-size: 1.5em;
+}
+
 .footer {
     position: absolute;
     bottom: 0;
