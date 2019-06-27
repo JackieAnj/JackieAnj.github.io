@@ -6,10 +6,8 @@ function setBanner() {
         //alert("good morning!");
     } else if (time < 18) {
         //alert("good afternoon!");
-        document.getElementById("banner").style.background = "url(./Images/afternoon.jpg) no-repeat right top";
     } else {
         //alert("good evening!");
-        document.getElementById("banner").style.background = "url(./Images/afternoon.jpg) no-repeat right top";
     }
 }
 
@@ -23,7 +21,7 @@ window.onscroll = function () {
 function setSticky(navbar) {
     // Get the navbar
 
-    if (window.pageYOffset >= 146) {
+    if (window.pageYOffset >= 400) {
         navbar.classList.add("sticky")
     } else {
         navbar.classList.remove("sticky");
