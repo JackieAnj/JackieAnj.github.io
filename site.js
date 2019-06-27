@@ -3,11 +3,11 @@ function setBanner() {
     var date = new Date();
     var time = date.getHours();
     if (time < 12){
-        //alert("good morning!");
+        document.getElementById("greeting").innerHTML = "Good Morning!";
     } else if (time < 18) {
-        //alert("good afternoon!");
+        document.getElementById("greeting").innerHTML = "Good Afternoon!";
     } else {
-        //alert("good evening!");
+        document.getElementById("greeting").innerHTML = "Good Evening!";
     }
 }
 

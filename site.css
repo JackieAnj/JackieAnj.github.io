@@ -15,6 +15,11 @@ body {
     background-position: center;
     height: 400px;
 }
+
+#greeting {
+    padding-top:1em;
+    font-size: 5em;
+}
 .footer {
     position: absolute;
     bottom: 0;
