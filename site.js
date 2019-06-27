@@ -15,8 +15,17 @@ function setBanner() {
 window.onscroll = function () {
     var navbar = document.getElementById("menubar");
     setSticky(navbar);
+
+    shrinkBanner();
 };
 
+function shrinkBanner() {
+    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+        document.getElementById("greeting").style.fontSize = "4em";
+    } else {
+        document.getElementById("greeting").style.fontSize = "5em";
+    }
+}
 // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
 function setSticky(navbar) {
     // Get the navbar
