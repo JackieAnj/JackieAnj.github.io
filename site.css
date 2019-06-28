@@ -11,12 +11,17 @@ body {
     min-width: 750px;
 }
 
+#head {
+    height:93.1%;
+}
+
 #banner {
     background-image: url(Images/banner.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 400px;
+    height: 100%;
+    padding-top: 21em;
 }
 
 #greeting {
@@ -53,7 +58,7 @@ body {
     outline: none;
     cursor: pointer;
     padding: 14px 16px;
-    font-size: 17px;
+    font-size: 1.9em;
     width: 25%;
 }
 

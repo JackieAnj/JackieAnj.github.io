@@ -34,7 +34,7 @@ function shrinkBanner() {
 function setSticky(navbar) {
     // Get the navbar
 
-    if (window.pageYOffset >= 400) {
+    if (window.pageYOffset >= $('#head').position().top + $('#head').outerHeight(true)) {
         navbar.classList.add("sticky")
     } else {
         navbar.classList.remove("sticky");
