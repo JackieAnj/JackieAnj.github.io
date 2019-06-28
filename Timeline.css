@@ -23,7 +23,7 @@ html, body {
         left: 25px;
         width: 4px;
         height:80%;
-        background: darkred;
+        background: #333C42;
     }
 
 @media only screen and (min-width: 1170px) {
@@ -78,7 +78,7 @@ html, body {
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    box-shadow: 0 0 0 4px darkred, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0 0 4px #333C42, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
 }
 
 .cd-timeline-img {
@@ -126,7 +126,7 @@ html, body {
     }
 }
 
-}
+
 
 .content-skills {
     font-size: 12px;
@@ -160,7 +160,7 @@ html, body {
 }
 
 .cd-timeline-content p, .cd-timeline-content .cd-date {
-    color: rgba(255,255,255,.7);
+    color: white;
     font-size: 13px;
     font-size: 0.8125rem;
 }

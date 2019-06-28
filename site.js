@@ -64,7 +64,7 @@ $(document).on('scroll', function() {
 
 $(document).on('scroll', function() {
     if($(this).scrollTop()>=$('#about-me').position().top){
-        tabcontent[0].style.backgroundColor = "black";
+        tabcontent[0].style.backgroundColor = "#ffcccc";
         tabcontent[1].style.backgroundColor = "";
         tabcontent[2].style.backgroundColor = "";
         tabcontent[3].style.backgroundColor = "";
@@ -74,7 +74,7 @@ $(document).on('scroll', function() {
 $(document).on('scroll', function() {
     if ($(this).scrollTop()>=$('#resume').position().top){
         tabcontent[0].style.backgroundColor = "";
-        tabcontent[1].style.backgroundColor = "black";
+        tabcontent[1].style.backgroundColor = "#ffcccc";
         tabcontent[2].style.backgroundColor = "";
         tabcontent[3].style.backgroundColor = "";
     }
@@ -84,7 +84,7 @@ $(document).on('scroll', function() {
     if ($(this).scrollTop()>=$('#cd-timeline').position().top){
         tabcontent[0].style.backgroundColor = "";
         tabcontent[1].style.backgroundColor = "";
-        tabcontent[2].style.backgroundColor = "black";
+        tabcontent[2].style.backgroundColor = "#ffcccc";
         tabcontent[3].style.backgroundColor = "";
     }
 })
@@ -94,6 +94,6 @@ $(document).on('scroll', function() {
         tabcontent[0].style.backgroundColor = "";
         tabcontent[1].style.backgroundColor = "";
         tabcontent[2].style.backgroundColor = "";
-        tabcontent[3].style.backgroundColor = "black";
+        tabcontent[3].style.backgroundColor = "#ffcccc";
     }
 })
