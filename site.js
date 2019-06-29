@@ -54,7 +54,7 @@ function closeNav() {
 var tabcontent = document.getElementsByClassName("tablink");
 
 $(document).on('scroll', function() {
-    if($(this).scrollTop()<$('#about-me').position().top){
+    if($(this).scrollTop()<$('#about-me').position().top - 50){
         tabcontent[0].style.backgroundColor = "";
         tabcontent[1].style.backgroundColor = "";
         tabcontent[2].style.backgroundColor = "";
@@ -63,7 +63,7 @@ $(document).on('scroll', function() {
 })
 
 $(document).on('scroll', function() {
-    if($(this).scrollTop()>=$('#about-me').position().top){
+    if($(this).scrollTop()>=$('#about-me').position().top - 100){
         tabcontent[0].style.backgroundColor = "#ffcccc";
         tabcontent[1].style.backgroundColor = "";
         tabcontent[2].style.backgroundColor = "";
@@ -72,7 +72,7 @@ $(document).on('scroll', function() {
 })
 
 $(document).on('scroll', function() {
-    if ($(this).scrollTop()>=$('#resume').position().top){
+    if ($(this).scrollTop()>=$('#resume').position().top - 100){
         tabcontent[0].style.backgroundColor = "";
         tabcontent[1].style.backgroundColor = "#ffcccc";
         tabcontent[2].style.backgroundColor = "";
@@ -81,7 +81,7 @@ $(document).on('scroll', function() {
 })
 
 $(document).on('scroll', function() {
-    if ($(this).scrollTop()>=$('#cd-timeline').position().top){
+    if ($(this).scrollTop()>=$('#cd-timeline').position().top - 100){
         tabcontent[0].style.backgroundColor = "";
         tabcontent[1].style.backgroundColor = "";
         tabcontent[2].style.backgroundColor = "#ffcccc";
@@ -90,7 +90,7 @@ $(document).on('scroll', function() {
 })
 
 $(document).on('scroll', function() {
-    if ($(this).scrollTop()>=$('#projects').position().top){
+    if ($(this).scrollTop()>=$('#projects').position().top - 100){
         tabcontent[0].style.backgroundColor = "";
         tabcontent[1].style.backgroundColor = "";
         tabcontent[2].style.backgroundColor = "";
