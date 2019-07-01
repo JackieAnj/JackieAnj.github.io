@@ -67,6 +67,8 @@ body {
 
 .tablink:hover {
     background-color:gray;
+    font-size:2.1em;
+    padding: 12px 14px;
 }
 
 .tabheader {
@@ -108,10 +110,6 @@ body {
 /* Style all font awesome icons */
 .fa {
     font-size: 0.8em;
-}
-
-.fa:hover {
-
 }
 
 /* Set a specific color for each brand */
