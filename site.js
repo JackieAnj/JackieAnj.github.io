@@ -17,6 +17,12 @@ window.onscroll = function () {
     setSticky(navbar);
 
     shrinkBanner();
+
+    if (document.body.scrollTop > 700 || document.documentElement.scrollTop > 700) {
+        document.getElementById("topBtn").style.display = "block";
+    } else {
+        document.getElementById("topBtn").style.display = "none";
+    }
 };
 
 function shrinkBanner() {
@@ -89,3 +95,12 @@ $(document).on('scroll', function() {
         tabcontent[3].style.backgroundColor = "#ffcccc";
     }
 })
+
+// smooth scroll to the top
+const scrollToTop = () => {
+    const c = document.documentElement.scrollTop || document.body.scrollTop;
+    if (c > 0) {
+      window.requestAnimationFrame(scrollToTop);
+      window.scrollTo(0, c - c / 10);
+    }
+  };
