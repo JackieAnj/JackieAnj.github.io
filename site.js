@@ -60,36 +60,28 @@ $(document).on('scroll', function() {
         tabcontent[2].style.backgroundColor = "";
         tabcontent[3].style.backgroundColor = "";
     }
-})
 
-$(document).on('scroll', function() {
     if($(this).scrollTop()>=$('#about-me').position().top - 100){
         tabcontent[0].style.backgroundColor = "#ffcccc";
         tabcontent[1].style.backgroundColor = "";
         tabcontent[2].style.backgroundColor = "";
         tabcontent[3].style.backgroundColor = "";
     }
-})
 
-$(document).on('scroll', function() {
     if ($(this).scrollTop()>=$('#resume').position().top - 100){
         tabcontent[0].style.backgroundColor = "";
         tabcontent[1].style.backgroundColor = "#ffcccc";
         tabcontent[2].style.backgroundColor = "";
         tabcontent[3].style.backgroundColor = "";
     }
-})
 
-$(document).on('scroll', function() {
     if ($(this).scrollTop()>=$('#cd-timeline').position().top - 100){
         tabcontent[0].style.backgroundColor = "";
         tabcontent[1].style.backgroundColor = "";
         tabcontent[2].style.backgroundColor = "#ffcccc";
         tabcontent[3].style.backgroundColor = "";
     }
-})
 
-$(document).on('scroll', function() {
     if ($(this).scrollTop()>=$('#projects').position().top - 100){
         tabcontent[0].style.backgroundColor = "";
         tabcontent[1].style.backgroundColor = "";

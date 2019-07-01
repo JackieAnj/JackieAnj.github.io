@@ -39,6 +39,7 @@ body {
 
 #greeting-message {
     font-size: 1.5em;
+    margin-top: 5em;
 }
 
 .footer {
@@ -106,17 +107,12 @@ body {
 
 /* Style all font awesome icons */
 .fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 100px;
-    text-align: center;
-    text-decoration: none;
+    font-size: 0.8em;
 }
 
-    /* Add a hover effect if you want */
-    .fa:hover {
-        opacity: 0.7;
-    }
+.fa:hover {
+
+}
 
 /* Set a specific color for each brand */
 
