@@ -23,7 +23,7 @@ html, body {
         left: 25px;
         width: 4px;
         height:80%;
-        background: #333C42;
+        background: #ffcccc;
     }
 
 @media only screen and (min-width: 1170px) {
@@ -78,7 +78,7 @@ html, body {
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    box-shadow: 0 0 0 4px #333C42, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0 0 4px #ffcccc, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
 }
 
 .cd-timeline-img {

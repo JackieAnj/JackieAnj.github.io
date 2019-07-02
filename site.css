@@ -6,7 +6,7 @@ html {
 body {
     /* Margin bottom by footer height */
     margin-bottom: 60px;
-    background-color: #d9d9d9;
+    background-color: rgb(60, 70, 77);
     font-family: monospace;
     min-width: 750px;
     min-height: 650px;
@@ -73,7 +73,6 @@ body {
 
 .tabheader {
     padding-top:70px;
-    background-color: white;
     background-clip: content-box;
     color:#ffcccc;
     text-align: center;
@@ -181,12 +180,11 @@ body {
 
 .contactButton {
     background-color: #ffcccc;
-    border: none;
     color: white;
     padding: 10px;
     text-align: center;
     display: inline-block;
-    font-size: 16px;
+    font-size: 1.5em;
     margin: 20px 8%;
     width: 80%;
     border-radius: 3px;
@@ -220,7 +218,6 @@ body {
     float: left;
     width: 30%;
     margin: 1%;
-    background-color: #333C42;
     color:white;
     padding:15px 20px 50px 20px;
     border-radius: 3px;
