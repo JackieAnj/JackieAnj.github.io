@@ -23,7 +23,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     height: 100%;
-    padding-top: 21em;
+    padding-top: 17%;
 }
 
 #greeting {
@@ -65,9 +65,9 @@ body {
     width: 25%;
 }
 
-@media only screen and (max-width: 960px) {
+@media only screen and (max-width: 750px) {
     .tablink {
-        font-size:2.5vw;
+        font-size:3.1vw;
     }
 }
 
