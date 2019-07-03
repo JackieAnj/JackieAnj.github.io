@@ -65,16 +65,16 @@ body {
     width: 25%;
 }
 
-@media only screen and (max-width: 725px) {
+@media only screen and (max-width: 960px) {
     .tablink {
-        font-size:1.1em;
+        font-size:2.5vw;
     }
 }
 
 .tablink:hover {
     background-color:gray;
     font-size:2.1em;
-    padding: 12px 0px;
+    padding: 12.5px 0px;
 }
 
 .tabheader {
