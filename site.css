@@ -80,7 +80,7 @@ body {
 .tabheader {
     padding-top:70px;
     background-clip: content-box;
-    color:#ffcccc;
+    color:white;
     text-align: center;
 }
 /* Set default styles for tab content */
