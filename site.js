@@ -3,11 +3,11 @@ function setBanner() {
     var date = new Date();
     var time = date.getHours();
     if (time < 12){
-        document.getElementById("about-me").innerHTML = "Good morning! Welcome to my website, feel free to take a look around";
+        document.getElementById("about-me").innerHTML = "<h5>Good morning! Welcome to my website, feel free to take a look around</h5>";
     } else if (time < 18) {
-        document.getElementById("about-me").innerHTML = "Good afternoon! Welcome to my website, feel free to take a look around";
+        document.getElementById("about-me").innerHTML = "<h5>Good afternoon! Welcome to my website, feel free to take a look around</h5>";
     } else {
-        document.getElementById("about-me").innerHTML = "Good evening! Welcome to my website, feel free to take a look around";
+        document.getElementById("about-me").innerHTML = "<h5>Good evening! Welcome to my website, feel free to take a look around</h5>";
     }
 }
 
