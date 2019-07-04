@@ -72,6 +72,14 @@ body {
     }
 }
 
+@media(hover: hover) {
+    .tablink:hover {
+        background-color:inherit;
+        font-size:1.7em;
+        padding: 16px;
+    }
+}
+
 .tablink:hover {
     background-color:gray;
     font-size:1.8em;
