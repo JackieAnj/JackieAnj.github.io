@@ -1,13 +1,13 @@
 // get the current time to update banner
-function setBanner() {
+function setTime() {
     var date = new Date();
     var time = date.getHours();
     if (time < 12){
-        document.getElementById("about-me").innerHTML = "<h5>Good morning! Welcome to my website, feel free to take a look around</h5>";
+        document.getElementById("introduction").innerHTML = "Good morning!";
     } else if (time < 18) {
-        document.getElementById("about-me").innerHTML = "<h5>Good afternoon! Welcome to my website, feel free to take a look around</h5>";
+        document.getElementById("introduction").innerHTML = "Good afternoon!";
     } else {
-        document.getElementById("about-me").innerHTML = "<h5>Good evening! Welcome to my website, feel free to take a look around</h5>";
+        document.getElementById("introduction").innerHTML = "Good evening!";
     }
 }
 
