@@ -3,11 +3,11 @@ function setTime() {
     var date = new Date();
     var time = date.getHours();
     if (time < 12){
-        document.getElementById("introduction").innerHTML = "Good morning!";
+        document.getElementById("timeframe").innerHTML = "Good morning!";
     } else if (time < 18) {
-        document.getElementById("introduction").innerHTML = "Good afternoon!";
+        document.getElementById("timeframe").innerHTML = "Good afternoon!";
     } else {
-        document.getElementById("introduction").innerHTML = "Good evening!";
+        document.getElementById("timeframe").innerHTML = "Good evening!";
     }
 }
 
