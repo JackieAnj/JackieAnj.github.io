@@ -12,17 +12,15 @@ html, body {
 
 #cd-timeline {
     position: relative;
-    padding: 2em 0;
-    margin-top: 2em;
 }
 
     #cd-timeline::before {
         content: '';
         position: absolute;
-        top: 169px;
+        top: 217px;
         left: 25px;
         width: 4px;
-        height:80%;
+        height:72%;
         background: #ffcccc;
     }
 
@@ -34,7 +32,8 @@ html, body {
         #cd-timeline::before {
             left: 50%;
             margin-left: -2px;
-            top:200px;
+            top:273px;
+            height:71%;
         }
 }
 

@@ -40,7 +40,7 @@ body {
 #introduction {
     color:white;
     font-size: 1.3em;
-    margin: 4% 20%;
+    margin: 4% 23%;
 }
 
 #introduction i {
@@ -91,7 +91,7 @@ body {
 }
 
 .tabheader {
-    padding-top:70px;
+    padding-top:3em;
     background-clip: content-box;
     color:white;
     text-align: center;
@@ -204,7 +204,7 @@ body {
     text-align: center;
     display: inline-block;
     font-size: 1.5em;
-    margin: 20px 8%;
+    margin: 8% 8% 20px;
     width: 80%;
     border-radius: 3px;
 }
