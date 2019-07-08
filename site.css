@@ -260,8 +260,7 @@ hr {
     background-color:white;
 }
 .row {
-    margin-left: 4%;
-    margin-right: 4%;
+    margin:0 6%;
 }
 /* Clear floats after the columns */
 .row:after {
