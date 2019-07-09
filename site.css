@@ -50,6 +50,7 @@ body {
 #greeting-message {
     font-size: 1.5em;
     margin-top: 5em;
+    margin-bottom: 2em;
 }
 
 .footer {
@@ -129,72 +130,26 @@ body {
 .fa {
     font-size: 0.8em;
 }
-
-.fa-facebook {
-    background: #3B5998;
-    color: white;
+.social {
+    color:black;
+    mix-blend-mode: screen;
+    background: white;
+    font-size: 2em;
     padding: 8px;
 }
-.fa-linkedin {
+
+.fa-linkedin:hover {
     background: #007bb5;
     color: white;
     padding: 8px;
+    text-decoration: none;
 }
-.fa-github {
+.fa-github:hover {
     background: black;
     color: white;
     padding: 8px;
-}
-
-/* The Overlay (background) */
-.overlay {
-    /* Height & width depends on how you want to reveal the overlay (see JS below) */
-    height: 0;
-    width: 100%;
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    left: 0;
-    top: 0;
-    background-color: rgb(0,0,0); /* Black fallback color */
-    background-color: rgba(0,0,0, 0.7); /* Black w/opacity */
-    overflow-x: hidden; /* Disable horizontal scroll */
-    transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
-}
-
-/* Position the content inside the overlay */
-.overlay-content {
-    position: relative;
-    top: 25%; /* 25% from the top */
-    width: 100%;
-    text-align: center; /* Centered text/links */
-    margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
-    font-size: 25px;
-}
-
-    /* When you mouse over the navigation links, change their color */
-    .overlay a:hover, .overlay a:focus {
-        color: #f1f1f1;
-    }
-
-/* Position the close button (top right corner) */
-.overlay .closebtn {
-    position: absolute;
-    top: 20px;
-    right: 45px;
-    font-size: 60px;
-}
-
-/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
-@media screen and (max-height: 450px) {
-    .overlay a {
-        font-size: 40px;
-    }
-
-    .overlay .closebtn {
-        font-size: 40px;
-        top: 15px;
-        right: 35px;
-    }
+    text-decoration: none;
+    mix-blend-mode: normal;
 }
 
 .contactButton {
@@ -226,8 +181,8 @@ body {
     cursor: pointer;
     padding: 3px 15px;
     border-radius: 3px;
-    font-size: 1.8em;
-  }
+    font-size: 1.5em;
+}
 
 #topBtn:hover {
   background-color: gray;
