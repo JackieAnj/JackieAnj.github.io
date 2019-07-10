@@ -99,8 +99,8 @@ body {
 }
 
 @media only screen and (max-width: 665px) {
-    .tablink {
-        padding-top:4em;
+    .tabheader {
+        padding-top:5em;
     }
 }
 
@@ -174,7 +174,7 @@ body {
 
 @media only screen and (max-width: 665px) {
     .contactButton {
-        margin: 16% 8% 20px;
+        margin: 20% 8% 20px;
     }
 }
 .contactButton:hover, .contactButton:focus {
