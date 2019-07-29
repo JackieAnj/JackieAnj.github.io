@@ -81,6 +81,18 @@ body {
         width:50%;
         padding: 16px 0px;
     }
+
+    .tabheader {
+        padding-top:5em;
+    }
+
+    .contactButton {
+        margin: 20% 8% 20px;
+    }
+
+    html {
+        width:100%;
+    }
 }
 
 @media(hover: hover) {
@@ -96,12 +108,6 @@ body {
     background-clip: content-box;
     color:white;
     text-align: center;
-}
-
-@media only screen and (max-width: 665px) {
-    .tabheader {
-        padding-top:5em;
-    }
 }
 
 /* Set default styles for tab content */
@@ -172,11 +178,6 @@ body {
     border-radius: 3px;
 }
 
-@media only screen and (max-width: 665px) {
-    .contactButton {
-        margin: 20% 8% 20px;
-    }
-}
 .contactButton:hover, .contactButton:focus {
     background-color: gray;
     color:white;
