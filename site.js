@@ -61,38 +61,38 @@ var tabcontent = document.getElementsByClassName("tablink");
 
 $(document).on('scroll', function() {
     if($(this).scrollTop()<$('#about-me').position().top - 50){
-        tabcontent[0].style.backgroundColor = "";
-        tabcontent[1].style.backgroundColor = "";
-        tabcontent[2].style.backgroundColor = "";
-        tabcontent[3].style.backgroundColor = "";
+        tabcontent[0].style.backgroundImage = "";
+        tabcontent[1].style.backgroundImage = "";
+        tabcontent[2].style.backgroundImage = "";
+        tabcontent[3].style.backgroundImage = "";
     }
 
     if($(this).scrollTop()>=$('#about-me').position().top - 100){
-        tabcontent[0].style.backgroundColor = "#ffcccc";
-        tabcontent[1].style.backgroundColor = "";
-        tabcontent[2].style.backgroundColor = "";
-        tabcontent[3].style.backgroundColor = "";
+        tabcontent[0].style.backgroundImage = "linear-gradient(lightpink, #ffcccc)";
+        tabcontent[1].style.backgroundImage = "";
+        tabcontent[2].style.backgroundImage = "";
+        tabcontent[3].style.backgroundImage = "";
     }
 
     if ($(this).scrollTop()>=$('#resume').position().top - 100){
-        tabcontent[0].style.backgroundColor = "";
-        tabcontent[1].style.backgroundColor = "#ffcccc";
-        tabcontent[2].style.backgroundColor = "";
-        tabcontent[3].style.backgroundColor = "";
+        tabcontent[0].style.backgroundImage = "";
+        tabcontent[1].style.backgroundImage = "linear-gradient(lightpink, #ffcccc)";
+        tabcontent[2].style.backgroundImage = "";
+        tabcontent[3].style.backgroundImage = "";
     }
 
     if ($(this).scrollTop()>=$('#cd-timeline').position().top - 100){
-        tabcontent[0].style.backgroundColor = "";
-        tabcontent[1].style.backgroundColor = "";
-        tabcontent[2].style.backgroundColor = "#ffcccc";
-        tabcontent[3].style.backgroundColor = "";
+        tabcontent[0].style.backgroundImage = "";
+        tabcontent[1].style.backgroundImage = "";
+        tabcontent[2].style.backgroundImage = "linear-gradient(lightpink, #ffcccc)";
+        tabcontent[3].style.backgroundImage = "";
     }
 
     if ($(this).scrollTop()>=$('#projects').position().top - 100){
-        tabcontent[0].style.backgroundColor = "";
-        tabcontent[1].style.backgroundColor = "";
-        tabcontent[2].style.backgroundColor = "";
-        tabcontent[3].style.backgroundColor = "#ffcccc";
+        tabcontent[0].style.backgroundImage = "";
+        tabcontent[1].style.backgroundImage = "";
+        tabcontent[2].style.backgroundImage = "";
+        tabcontent[3].style.backgroundImage = "linear-gradient(lightpink, #ffcccc)";
     }
 })
 
