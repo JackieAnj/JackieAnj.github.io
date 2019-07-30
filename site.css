@@ -65,7 +65,7 @@ body {
 
 /* Style the tab buttons */
 .tablink {
-    background-image:linear-gradient(#333C42, #222);
+    background-image:linear-gradient(transparent, #222);
     background-color: #333C42;
     color: white;
     float: left;
@@ -145,6 +145,7 @@ body {
     background: white;
     font-size: 2em;
     padding: 8px;
+    transition: 0.3s;
 }
 
 .fa-linkedin:hover {
@@ -163,6 +164,7 @@ body {
 }
 
 .contactButton {
+    background-image: linear-gradient(transparent, lightpink);
     background-color: #ffcccc;
     color: white;
     padding: 10px;
@@ -172,9 +174,11 @@ body {
     margin: 8% 8% 20px;
     width: 80%;
     border-radius: 3px;
+    transition: 0.3s;
 }
 
 .contactButton:hover, .contactButton:focus {
+    background-image: linear-gradient(transparent, darkgray);
     background-color: gray;
     color:white;
     text-decoration: none;
@@ -187,16 +191,19 @@ body {
     right: 30px;
     z-index: 99;
     border: none;
+    background-image: linear-gradient(transparent, #222);
     background-color: #333C42;
     color: white;
     cursor: pointer;
     padding: 3px 15px;
     border-radius: 3px;
     font-size: 1.5em;
+    transition: 0.3s;
 }
 
 #topBtn:hover {
-  background-color: gray;
+    background-image: linear-gradient(transparent, darkgray);
+    background-color: gray;
 }
 
 .column {
