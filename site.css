@@ -167,6 +167,9 @@ body {
     mix-blend-mode: normal;
 }
 
+#about-me {
+    margin-top:40px;
+}
 .contactButton {
     background-image: linear-gradient(transparent, lightpink);
     background-color: #ffcccc;
