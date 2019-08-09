@@ -150,6 +150,7 @@ body {
     font-size: 2em;
     padding: 8px;
     transition: 0.3s;
+    width:45px;
 }
 
 .fa-linkedin:hover {
@@ -161,6 +162,22 @@ body {
 }
 .fa-github:hover {
     background: black;
+    color: white;
+    padding: 8px;
+    text-decoration: none;
+    mix-blend-mode: normal;
+}
+
+.fa-instagram:hover {
+    background: #DD2A7B;
+    color: white;
+    padding: 8px;
+    text-decoration: none;
+    mix-blend-mode: normal;
+}
+
+.fa-facebook:hover {
+    background: #3b5998;
     color: white;
     padding: 8px;
     text-decoration: none;
