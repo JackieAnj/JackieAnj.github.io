@@ -17,7 +17,7 @@ body {
 }
 
 #head {
-    height:93.1%;
+    height:93.5%;
 }
 
 #banner {
@@ -77,7 +77,7 @@ body {
     outline: none;
     cursor: pointer;
     padding: 16px;
-    font-size: 1.7em;
+    font-size: 1.5em;
     width: 25%;
 }
 
@@ -98,7 +98,7 @@ body {
 
 @media(hover: hover) {
     .tablink:hover {
-        font-size:1.8em;
+        font-size:1.6em;
         padding: 15px 0px;
     }
 }
