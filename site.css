@@ -21,7 +21,7 @@ body {
 }
 
 #banner {
-    background-image: url(Images/banner.jpg);
+    background-image: url(Images/banner3.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -32,7 +32,7 @@ body {
 
 #greeting {
     font-size: 5em;
-    margin: 1em auto;
+    margin: 1.7em auto 0;
     width: 95%;
     transition: 0.2s;
     background-color:white;
@@ -272,5 +272,5 @@ hr {
 }
 
 .contacts{
-    margin-top:130px;
+    margin-top:85px;
 }
