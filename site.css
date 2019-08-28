@@ -23,9 +23,6 @@ body {
 #banner {
     background: url(Images/banner3.jpg);
     background-attachment: fixed;
-    -webkit-background-size: cover;
-    -moz-background-size:cover;
-    -o-background-size:cover; 
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -96,6 +93,10 @@ body {
 
     .contactButton {
         margin: 20% 8% 20px;
+    }
+
+    #banner {
+        background: url(Images/banner3s.jpg);
     }
 }
 
