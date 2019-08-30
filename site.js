@@ -1,3 +1,11 @@
+$(document).ready(function()
+{
+    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) )
+    {
+        document.getElementById("banner").style.backgroundAttachment = "unset";
+    }
+});
+
 // get the current time to update banner
 function setTime() {
     var date = new Date();
@@ -45,16 +53,6 @@ function setSticky(navbar) {
     } else {
         navbar.classList.remove("sticky");
     }
-}
-// Open contacts
-function openNav() {
-    document.getElementById("myNav").style.height = "100%";
-    console.log("called");
-}
-
-// Close contacts
-function closeNav() {
-    document.getElementById("myNav").style.height = "0%";
 }
 
 var tabcontent = document.getElementsByClassName("tablink");

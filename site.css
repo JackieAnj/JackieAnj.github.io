@@ -94,10 +94,6 @@ body {
     .contactButton {
         margin: 20% 8% 20px;
     }
-
-    #banner {
-        background: url(Images/banner3s.jpg);
-    }
 }
 
 @media(hover: hover) {
