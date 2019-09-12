@@ -17,10 +17,10 @@ html, body {
     #cd-timeline::before {
         content: '';
         position: absolute;
-        top: 217px;
+        top: 190px;
         left: 25px;
         width: 4px;
-        height:72%;
+        height:74%;
         background: #ffcccc;
     }
 
@@ -32,8 +32,8 @@ html, body {
         #cd-timeline::before {
             left: 50%;
             margin-left: -2px;
-            top:273px;
-            height:71%;
+            top:240px;
+            height:75%;
         }
 }
 
@@ -157,6 +157,10 @@ html, body {
     color: rgba(255,255,255,.9);
     margin-top: 0;
     margin-bottom: 5px;
+}
+
+.cd-date {
+    font-size:1em;
 }
 
 .cd-timeline-content p, .cd-timeline-content .cd-date {
