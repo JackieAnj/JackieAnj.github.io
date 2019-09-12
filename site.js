@@ -4,6 +4,11 @@ $(document).ready(function()
     {
         document.getElementById("banner").style.backgroundAttachment = "unset";
     }
+    if( /Android|webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) )
+    {
+        document.getElementsByTagName("body")[0].style.fontSize = "18px";
+        document.getElementById("introduction").style.margin = "4% 10%";
+    }
 });
 
 // get the current time to update banner

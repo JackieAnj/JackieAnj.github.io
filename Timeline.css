@@ -136,6 +136,7 @@ html, body {
     justify-content: center;
 }
 .content-skills li {
+    font-size: 1.1em;
     background: #40484D;
     border-radius: 2px;
     display: inline-block;
@@ -171,6 +172,7 @@ html, body {
 .cd-timeline-content p {
     margin: 1em 0;
     line-height: 1.6;
+    font-size:1.1em;
 }
 
 .cd-timeline-content::before {
@@ -184,22 +186,7 @@ html, body {
     border-right: 7px solid #333C42;
 }
 
-@media only screen and (min-width: 768px) {
-    .cd-timeline-content h2 {
-        font-size: 20px;
-        font-size: 1.25rem;
-    }
 
-    .cd-timeline-content p {
-        font-size: 16px;
-        font-size: 1rem;
-    }
-
-    .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
-        font-size: 14px;
-        font-size: 0.875rem;
-    }
-}
 .content-skills {
     color:white;
     margin:0;
