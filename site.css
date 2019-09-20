@@ -189,7 +189,7 @@ body {
     margin-top:40px;
 }
 .contactButton {
-    background-image: linear-gradient(transparent, lightpink);
+    /*background-image: linear-gradient(transparent, lightpink);*/
     background-color: #ffcccc;
     color: white;
     padding: 10px;
