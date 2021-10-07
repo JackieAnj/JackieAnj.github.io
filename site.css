@@ -240,8 +240,8 @@ body {
     background-color: #333C42;
 }
 
-.project-column {
-    width: 28%;
+.projectColumn {
+    width: 31%;
     margin: 1%;
     color:white;
     padding:15px 20px 50px 20px;
@@ -273,6 +273,7 @@ hr {
 .row {
     margin:0 6%;
 }
+
 /* Clear floats after the columns */
 .row:after {
     content: "";
