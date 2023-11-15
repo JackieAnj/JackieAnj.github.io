@@ -8,10 +8,8 @@ body {
     margin-bottom: 60px;
     height:100%;
     background-attachment:fixed;
-    background-image:linear-gradient(transparent, rgb(58, 70, 77));
-    /*background-color: rgb(60, 70, 77);*/
-    background-color: rgb(87, 103, 114);
-    font-family: monospace;
+    background-color: #02111B;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     min-width: 750px;
     min-height: 650px;
 }
@@ -71,7 +69,7 @@ body {
 /* Style the tab buttons */
 .tablink {
     /*background-image:linear-gradient(transparent, #222);*/
-    background-color: #333C42;
+    background-color: #02111B;
     color: white;
     float: left;
     border: none;
@@ -191,7 +189,7 @@ body {
 }
 .contactButton {
     /*background-image: linear-gradient(transparent, lightpink);*/
-    background-color: #ffcccc;
+    background-color: #FF8484;
     color: white;
     padding: 10px;
     text-align: center;
@@ -204,7 +202,7 @@ body {
 }
 
 .contactButton:hover, .contactButton:focus {
-    background-image: linear-gradient(lightpink, #ffcccc);
+    background-image: #5D737E;
     color:white;
     text-decoration: none;
 }
@@ -217,7 +215,7 @@ body {
     z-index: 99;
     border: none;
     /*background-image: linear-gradient(transparent, #222);*/
-    background-color: #333C42;
+    background-color: #02111B;
     color: white;
     cursor: pointer;
     padding: 3px 15px;
@@ -227,7 +225,8 @@ body {
 }
 
 #topBtn:hover {
-    background-image: linear-gradient(#222, #333C42);
+    /* background-image: linear-gradient(#FF8484, #5D737E); */
+    background-color: #FF8484;
 }
 
 .column {
@@ -237,7 +236,7 @@ body {
     padding:15px 20px 50px 20px;
     border-radius: 3px;
     font-size:1.1em;
-    background-color: #333C42;
+    background-color: #5D737E;
 }
 
 .projectColumn {
@@ -247,7 +246,7 @@ body {
     padding:15px 20px 50px 20px;
     border-radius: 3px;
     font-size:1.1em;
-    background-color: #333C42;
+    background-color: #5D737E;
 }
 
 .column li {

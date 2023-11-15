@@ -71,7 +71,7 @@ $(document).on('scroll', function() {
     }
 
     if($(this).scrollTop()>=$('#about-me').position().top - 100){
-        tabcontent[0].style.backgroundImage = "linear-gradient(lightpink, #ffcccc)";
+        tabcontent[0].style.backgroundImage = "linear-gradient(#5D737E, #5D737E)";
         tabcontent[1].style.backgroundImage = "";
         tabcontent[2].style.backgroundImage = "";
         tabcontent[3].style.backgroundImage = "";
@@ -79,7 +79,7 @@ $(document).on('scroll', function() {
 
     if ($(this).scrollTop()>=$('#resume').position().top - 100){
         tabcontent[0].style.backgroundImage = "";
-        tabcontent[1].style.backgroundImage = "linear-gradient(lightpink, #ffcccc)";
+        tabcontent[1].style.backgroundImage = "linear-gradient(#5D737E, #5D737E)";
         tabcontent[2].style.backgroundImage = "";
         tabcontent[3].style.backgroundImage = "";
     }
@@ -87,7 +87,7 @@ $(document).on('scroll', function() {
     if ($(this).scrollTop()>=$('#cd-timeline').position().top - 100){
         tabcontent[0].style.backgroundImage = "";
         tabcontent[1].style.backgroundImage = "";
-        tabcontent[2].style.backgroundImage = "linear-gradient(lightpink, #ffcccc)";
+        tabcontent[2].style.backgroundImage = "linear-gradient(#5D737E, #5D737E)";
         tabcontent[3].style.backgroundImage = "";
     }
 
@@ -95,7 +95,7 @@ $(document).on('scroll', function() {
         tabcontent[0].style.backgroundImage = "";
         tabcontent[1].style.backgroundImage = "";
         tabcontent[2].style.backgroundImage = "";
-        tabcontent[3].style.backgroundImage = "linear-gradient(lightpink, #ffcccc)";
+        tabcontent[3].style.backgroundImage = "linear-gradient(#5D737E, #5D737E)";
     }
 })
 
